@@ -1,0 +1,71 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #1b1b32;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+}
+#form{
+    border: 2px solid #fff;
+    background-color: #ffffff22;
+    width: 80%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+form > label{
+    font-size: 1.8rem;
+    font-weight: bold;
+    width: 85%;
+    text-align: center;
+}
+form > input{
+    width: 85%;
+    height: 50px;
+    background-color: #0e0e24;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+form>button{
+    width: 85%;
+    height: 40px;
+    font-size: 1.2rem;
+    text-align: center;
+    background: linear-gradient(#fecc4c, #ffac33);
+    padding: 5px;
+    border: 1px solid #ffac33;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#output{
+    border: 2px solid #fff;
+    background-color: #ffffff22;
+    width: 80%;
+    padding: 15px;
+    display: none;
+}
+#result-paragraph{
+    text-align: center;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
